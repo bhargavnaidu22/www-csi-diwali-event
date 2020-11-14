@@ -21,3 +21,9 @@ main{
 	align-items: center;
 	text-align: center;
 }
+@keyframes{
+	0%{color: "red";}
+	10%{color: "blue"}
+	20%{color: "white"}
+	50%{color: "pink"}
+}
