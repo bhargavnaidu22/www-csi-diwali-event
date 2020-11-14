@@ -35,9 +35,9 @@ main .msg{
 	letter-spacing: 3px;
 	color: white;
 	text-shadow: 1px 1px 2px black;
-	animation: color 10s infinite linear; 
+	nimation: cor 6s ease-in infinite both;
 }
-@keyframes color{
+@keyframes cor{
 	10%{color: "red";}
 	43%{color: "white";}
 	76%{color: "green";}
@@ -47,15 +47,18 @@ div{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	animation: ff 10s infinite blink; 
+	animation: ff 5s infinite alternate; 
 }
 @keyframes ff{
 	0%;
 	10%{
 	color: 'yellow';
 	}
-	15%{
+	35%{
 	color: 'red';
+	}
+	70%{
+	color: 'yellow';
 	}
 	100%{
 	color: 'red';
@@ -72,7 +75,8 @@ div{
 		</nav>
 		<main>
 		<div class="msg">
-			<h1 class="color">Welcome to Wish With Web Diwali Event
+			<h1 class="color">Welcome to Wish With Web <br>
+				Diwali Event
 			</h1>
 		</div>
 		</main>
