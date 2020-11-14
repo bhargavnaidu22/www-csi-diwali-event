@@ -1,0 +1,15 @@
+*{
+	margin: 0px;padding: 0px;
+}
+header{
+	width: 100%; height: 100vh;
+	background-image: linear-gradient(rgba(220,110,520,1),rgba(222,333,22,1));
+	background-repeat: none;
+	background-size: cover;
+}
+nav{
+	width: 100%,height:35vh;
+	background: rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: space-around;
+}
